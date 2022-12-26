@@ -1,0 +1,46 @@
+body{
+    background-image: url(img.jpg);
+   
+}
+
+#error{
+	color: red;
+	visibility: hidden;
+}
+form{
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+.card {
+	margin: 2rem auto;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 425px;
+	background-color: #f1f3fb;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px 0 rgba(#999, .25);
+	padding: .75rem;
+}
+.inputs {
+display: flex;
+flex-direction: column;
+justify-content: space-between;}
+
+.inputs input {
+    border-radius: 10px;
+    padding-right: 5px;
+}
+
+.inputs label {
+    text-align: start;
+    padding: 10px;
+}
+
+.button{
+	border: 1px solid #000;
+	border-radius: 10px;
+	
+}
